@@ -1,0 +1,29 @@
+{
+    "name": "candy365",
+    "description": "candy365",
+    "keywords": ["candy365"],
+    "env": {
+        "AA": {
+            "description": "UUIDS",
+            "value": "keep null"
+        },
+        "AUUID": {
+            "description": "UUID",
+            "value": "8f91b6a0-e8ee-11ea-adc1-0242ac120002"
+        },
+        "CADDYIndexPage": {
+            "description": "CADDY frontpage",
+            "value": "https://raw.githubusercontent.com/caddyserver/dist/master/welcome/index.html"
+        },
+        "ParameterSSENCYPT": {
+            "description": "协议",
+            "value": "chacha20-ietf-poly1305"
+        },
+        "StoreFiles": {
+            "description": "自定义网络地址读取存储文件列表",
+            "value": "https://raw.githubusercontent.com/xfangbao/ccaandy365/master/etc/StoreFiles"
+        }
+    },
+    "repository": "",
+    "stack": "container"
+}
